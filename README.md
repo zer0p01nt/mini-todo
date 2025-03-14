@@ -2,4 +2,6 @@
 
 react + typescript + vite
 
-+ tailwindcss 실습 예정,,
+GitHub Actions 활용한 배포
+
+- tailwindcss 실습 예정,,
