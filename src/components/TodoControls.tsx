@@ -31,10 +31,10 @@ const TodoControls = ({ addTodo, checkAll, deleteAll }: Props) => {
           onChange={(e) => setText(e.target.value)}
           onKeyDown={(e) => handleKeyDown(e)}
           maxLength={100}
-          className='border-2 px-3 rounded-full border-green-500'
+          className='border-2 rounded-full border-green-500'
         />
         <button
-          className='font-medium bg-green-500 p-2 rounded-full hover:bg-black hover:text-white'
+          className='font-medium bg-green-500 rounded-full hover:bg-black hover:text-white'
           onClick={handleAddTodo}
         >
           추가
