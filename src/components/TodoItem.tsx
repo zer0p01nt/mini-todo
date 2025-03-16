@@ -8,11 +8,12 @@ type Props = {
 
 const TodoItem = ({ todo, checkTodo, deleteTodo }: Props) => {
   return (
-    <li>
+    <li className='flex justify-center mt-2 gap-2'>
       <input
         type='checkbox'
         checked={todo.completed}
         onChange={() => checkTodo(todo.id)}
+        className='accent-green-500 hover:accent-black'
       />
       <span
         style={{ textDecoration: todo.completed ? "line-through" : "none" }}

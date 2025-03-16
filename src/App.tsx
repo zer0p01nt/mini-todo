@@ -40,8 +40,10 @@ const App = () => {
   };
 
   return (
-    <div>
-      <h1>꼭꼭 확인하세요 🍀</h1>
+    <div className='font-42dot'>
+      <p className='mt-10 flex justify-center font-bold text-3xl'>
+        꼭꼭 확인하세요 🍀
+      </p>
       <TodoControls
         addTodo={addTodo}
         checkAll={checkAll}
