@@ -30,6 +30,7 @@ const TodoControls = ({ addTodo, checkAll, deleteAll }: Props) => {
           value={text}
           onChange={(e) => setText(e.target.value)}
           onKeyDown={(e) => handleKeyDown(e)}
+          maxLength={100}
           className='border-2 px-3 rounded-full border-green-500'
         />
         <button
